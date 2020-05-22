@@ -1,24 +1,63 @@
 
 body{
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #616766;
 }
 
-.content{
-  background-color: pink;
-  border:1px solid black;
-  padding:50px;
+/* GESTIONE STILI CARATTERI */
+
+h3 {
+  margin:20px 22px;
+}
+
+p {
+  margin:20px 30px;
 }
 
 
-.sezione3 .pic-icon img {
-  background-color: #428bca;
-  border-radius: 50%;
-  padding: 30px
+.header{
+  color: white;
+  background-color: #597293;
+  padding:20px 0 40px;
 }
 
-img {
+[class*="sezione"]{
+  margin: 20px 4%;
+  padding: 20px 0;
+  border-radius: 10px;
+}
+
+section >:first-of-type:not(.sezione1){
+  background-color: 	#dae0e8;
+}
+
+.sezione2 h2, .sezione3 h2{
+  color: #8fa1ba;
+}
+
+
+/* GESTIONE STILI IMMAGINI */
+
+img{
+  margin-top: 40px;
+}
+
+.sezione1 img{
+  max-height: 200px;
+}
+
+.sezione2 img{
   height: 200px;
 }
+
+.sezione3 img{
+  max-height: 150px;
+  background-color: #6981a0;
+  border-radius: 50%;
+  padding: 30px;
+}
+
 
 
 
@@ -29,20 +68,54 @@ img {
 
 
   body{
-    background-color: lightgreen;
+    background-color:	#dae0e8;
   }
+
+  /* GESTIONE STILI CARATTERI */
+
+  h3 {
+    margin:10px 20px;
+  }
+
+  p {
+    margin:10px 20px;
+  }
+
+  [class*="sezione"]{
+    margin: 20px 2%;
+    padding: 10px 0;
+    border-radius: 5px;
+  }
+  .sezione3 img{
+    background-color: #597293;
+  }
+
+  section >:first-of-type:not(.sezione1){
+    background-color: 	#738bab;
+    color:white;
+  }
+
+  .sezione2 h2, .sezione3 h2{
+    color:#dae0e8;
+  }
+
+
+
+
+}
 
 
   /* MEDIA QUERY MD - vesione TABLET */
   @media all and (min-width:769px) and (max-width:992px) {
 
-    body{
-      background-color: lightblue;
-    }
+  body{
+    background-color: #dae0e8;
+  }
 
-    /* MEDIA QUERY LG - vesione DESKTOP */
-    @media all and (min-width:993px) {
+}
 
-    }
+/* MEDIA QUERY LG - vesione DESKTOP */
+@media all and (min-width:993px) {
+
 
 }
